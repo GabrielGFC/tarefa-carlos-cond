@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Cooler Gamer RGB 120mm",
+    "category": "cooler",
+    "price": 79.90,
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/5/f/5fb89144feb664e863fe92e6a64ef720.webp"
+  },
+  {
+    "name": "Processador Ryzen 7 5700G",
+    "category": "cpu",
+    "price": 1299.00,
+    "socket": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/d/2/d2305a0620efbfd977f2befee213cb31.webp"
+  },
+  {
+    "name": "Placa Mãe B450M ASUS",
+    "category": "placa mãe",
+    "price": 599.90,
+    "socket_compatível": "AM4",
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/4/d/4ddc51aad733589dffc29d27ffcdf05d.jpeg"
+  }
+]

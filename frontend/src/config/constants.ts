@@ -1,0 +1,22 @@
+export const categories = ["CPU", "Cooler", "Placa Mãe", "RAM", "Placa de vídeo", "HD/SSD", "Gabinete", "Fonte"];
+
+export const translations = {
+  pt: {
+    title: "Monte seu PC",
+    select: "Selecione",
+    next: "Próximo",
+    prev: "Anterior",
+    summary: "Resumo",
+    total: "Total",
+    choose: "Escolha um(a)"
+  },
+  en: {
+    title: "Build your PC",
+    select: "Select",
+    next: "Next",
+    prev: "Previous",
+    summary: "Summary",
+    total: "Total",
+    choose: "Choose a"
+  }
+};
