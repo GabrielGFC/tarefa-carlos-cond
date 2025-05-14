@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './styles/global.css';
-import { ThemeProvider } from '@mui/material/styles';
-import { theme } from './theme';
-import CssBaseline from '@mui/material/CssBaseline';
+
+import ThemeProvider from './theme/Provider';
+
+import '@fontsource/public-sans';
+import '@fontsource/roboto';      
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <ThemeProvider>   
       <App />
     </ThemeProvider>
   </React.StrictMode>

@@ -1,11 +1,33 @@
-export const categories = ["CPU", "Cooler", "Placa Mãe", "RAM", "Placa de vídeo", "HD/SSD", "Gabinete", "Fonte"];
+// Lista de categorias por idioma
+export const categories = {
+  pt: [
+    "CPU",
+    "Cooler",
+    "Placa Mãe",
+    "RAM",
+    "Placa de vídeo",
+    "HD/SSD",
+    "Gabinete",
+    "Fonte"
+  ],
+  en: [
+    "CPU",
+    "Cooler",
+    "Motherboard",
+    "RAM",
+    "GPU",
+    "HDD/SSD",
+    "Case",
+    "Power Supply"
+  ]
+};
 
 export const translations = {
   pt: {
     title: "Monte seu PC",
     next: "Próximo",
     prev: "Anterior",
-    summary: "Resumo",
+    summary: "Conta",
     total: "Total",
     choose: "Escolha um(a)"
   },
@@ -13,7 +35,7 @@ export const translations = {
     title: "Build your PC",
     next: "Next",
     prev: "Previous",
-    summary: "Summary",
+    summary: "Account",
     total: "Total",
     choose: "Choose a"
   }

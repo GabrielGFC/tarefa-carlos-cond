@@ -1,4 +1,6 @@
 export interface ComponentData {
+  brand: string | undefined;
+  imageUrl: string | undefined;
   id?: number;
   name: string;
   category: string;

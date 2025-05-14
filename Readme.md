@@ -120,18 +120,18 @@ A interface estará disponível em:
 | `yarn build`   | Gera a build para produção     |
 | `yarn preview` | Visualiza a build gerada       |
 
----
+    ---
 
-## 📷 Exemplo de imagens usadas
+    ## 📷 Exemplo de imagens usadas
 
-As imagens dos produtos são retiradas do site [FGTEC](https://www.fgtec.com.br) com links diretos no `dump.json`.
+    As imagens dos produtos são retiradas do site [FGTEC](https://www.fgtec.com.br) com links diretos no `dump.json`.
 
----
+    ---
 
-## ❓ Dúvidas
+    ## ❓ Dúvidas
 
-Caso algo não funcione:
+    Caso algo não funcione:
 
-* Verifique se o backend está em `http://localhost:3001`
-* Confira se executou `yarn seed` no backend
-* Veja o console do navegador e do terminal para mensagens de erro
+    * Verifique se o backend está em `http://localhost:3001`
+    * Confira se executou `yarn seed` no backend
+    * Veja o console do navegador e do terminal para mensagens de erro 

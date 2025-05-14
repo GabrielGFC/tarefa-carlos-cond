@@ -1,19 +1,101 @@
+// src/App.tsx
 import React, { useState } from 'react';
-import { Box, Container, Stepper, Step, StepLabel, Button, Typography, Paper } from '@mui/material';
+import {
+  Box,
+  Container,
+  Stepper,
+  Step,
+  StepLabel,
+  Button,
+  Typography,
+  StepConnector,
+  Drawer,
+} from '@mui/material';
+import { styled } from '@mui/material/styles';
+import MemoryIcon from '@mui/icons-material/Memory';
+import StorageIcon from '@mui/icons-material/Storage';
+import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
+import PowerIcon from '@mui/icons-material/Power';
+import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
+
+import ThemeProvider from './theme/Provider';
+import Header from './layout/Header';
 import PartSelector from './components/PartSelector';
 import Summary from './components/Summary';
+
 import { categories, translations } from './config/constants';
 import { ComponentData } from './types/Component';
+import { StepIconProps } from '@mui/material/StepIcon';
 
+/* ---------- Ícones por categoria (PT e EN) ---------- */
+const categoryIcons: Record<string, JSX.Element> = {
+  CPU: <MemoryIcon />,
+  Cooler: <AcUnitIcon />,
+  'CPU Cooler': <AcUnitIcon />,
+  'Placa Mãe': <DeveloperBoardIcon />,
+  Motherboard: <DeveloperBoardIcon />,
+  RAM: <MemoryIcon />,
+  'Placa de vídeo': <VideogameAssetIcon />,
+  GPU: <VideogameAssetIcon />,
+  'HD/SSD': <StorageIcon />,
+  'HDD/SSD': <StorageIcon />,
+  Gabinete: <VideogameAssetIcon />,
+  Case: <VideogameAssetIcon />,
+  Fonte: <PowerIcon />,
+  'Power Supply': <PowerIcon />,
+};
+
+/* ---------- Conector gradiente do Stepper ---------- */
+const ColorConnector = styled(StepConnector)(({ theme }) => ({
+  '& .MuiStepConnector-line': {
+    border: 0,
+    height: 3,
+    borderRadius: 1,
+    background: `linear-gradient(90deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
+  },
+}));
+
+/* ---------- Componente do ícone no Stepper ---------- */
+function StepIconComponent(props: StepIconProps) {
+  const { active, completed, className, icon } = props;
+  const label = String(icon);
+  const content = categoryIcons[label] ?? <MemoryIcon />;
+
+  return (
+    <Box
+      className={className}
+      sx={{
+        width: 44,
+        height: 44,
+        borderRadius: '50%',
+        bgcolor: active || completed ? 'primary.main' : 'grey.700',
+        color: '#fff',
+        display: 'grid',
+        placeItems: 'center',
+        boxShadow: active ? 4 : 1,
+      }}
+    >
+      {content}
+    </Box>
+  );
+}
+
+/* ==================================================== */
 export default function App() {
   const [step, setStep] = useState(0);
   const [lang, setLang] = useState<'pt' | 'en'>('pt');
-  const [selectedParts, setSelectedParts] = useState<Record<string, ComponentData>>({});
-  const t = translations[lang];
+  const [selectedParts, setSelectedParts] = useState<
+    Record<string, ComponentData>
+  >({});
+  const [showCart, setShowCart] = useState(false);
 
-  const handleSelect = (item: ComponentData) => {
-    setSelectedParts(prev => ({ ...prev, [categories[step]]: item }));
-  };
+  const t = translations[lang];
+  const currentCategories = categories[lang];
+
+  /* ---------- Handlers ---------- */
+  const handleSelect = (item: ComponentData) =>
+    setSelectedParts((prev) => ({ ...prev, [currentCategories[step]]: item }));
 
   const handleRemove = (category: string) => {
     const copy = { ...selectedParts };
@@ -21,35 +103,80 @@ export default function App() {
     setSelectedParts(copy);
   };
 
-  const total = Object.values(selectedParts).reduce((acc, part) => acc + (part?.price || 0), 0);
+  const total = Object.values(selectedParts).reduce(
+    (acc, part) => acc + (part?.price || 0),
+    0,
+  );
 
+  /* ---------- JSX ---------- */
   return (
-    <Container maxWidth="xl" sx={{ mt: 4 }}>
-      <Typography variant="h4" gutterBottom>{t.title}</Typography>
+    <ThemeProvider>
+      <Header
+        lang={lang}
+        setLang={setLang}
+        onToggleCart={() => setShowCart(!showCart)}
+      />
 
-      <Box mb={3}>
-        <Button variant={lang === 'pt' ? 'contained' : 'outlined'} onClick={() => setLang('pt')}>🇧🇷 Português</Button>
-        <Button sx={{ ml:1 }} variant={lang === 'en' ? 'contained' : 'outlined'} onClick={() => setLang('en')}>🇺🇸 English</Button>
-      </Box>
+      <Container maxWidth="lg" sx={{ mt: 4, pb: 6 }}>
+        {/* Stepper */}
+        <Stepper
+          alternativeLabel
+          activeStep={step}
+          connector={<ColorConnector />}
+          sx={{ mb: 4 }}
+        >
+          {currentCategories.map((label) => (
+            <Step key={label}>
+              <StepLabel StepIconComponent={StepIconComponent}>
+                {label}
+              </StepLabel>
+            </Step>
+          ))}
+        </Stepper>
 
-      <Stepper activeStep={step} sx={{ mb:3 }}>
-        {categories.map(label => (
-          <Step key={label}><StepLabel>{label}</StepLabel></Step>
-        ))}
-      </Stepper>
+        {/* Seleção de peças */}
+        <Box display="flex" flexDirection="column" minHeight={0}>
+          <PartSelector
+            category={currentCategories[step]}
+            selectedParts={selectedParts}
+            onSelect={handleSelect}
+            lang={lang}
+          />
 
-      <Box display="grid" gridTemplateColumns={{ xs: '1fr', md: '2fr 1fr' }} gap={3}>
-        <Box>
-          <PartSelector category={categories[step]} selectedParts={selectedParts} onSelect={handleSelect} lang={lang}/>
+          {/* Navegação entre steps */}
           <Box display="flex" justifyContent="space-between" mt={2}>
-            <Button disabled={step === 0} onClick={() => setStep(step - 1)}>{t.prev}</Button>
-            <Button disabled={step === categories.length - 1} onClick={() => setStep(step + 1)}>{t.next}</Button>
+            <Button disabled={step === 0} onClick={() => setStep(step - 1)}>
+              {t.prev}
+            </Button>
+            <Button
+              variant="contained"
+              disabled={step === currentCategories.length - 1}
+              onClick={() => setStep(step + 1)}
+            >
+              {t.next}
+            </Button>
           </Box>
         </Box>
-        <Paper elevation={3} sx={{ p:2, position:'sticky', top:20 }}>
-          <Summary selectedParts={selectedParts} total={total} lang={lang} onRemove={handleRemove}/>
-        </Paper>
-      </Box>
-    </Container>
+      </Container>
+
+      {/* Drawer do carrinho */}
+      <Drawer
+        anchor="right"
+        open={showCart}
+        onClose={() => setShowCart(false)}
+        PaperProps={{ sx: { width: { xs: '100%', md: 380 } } }}
+      >
+        <Summary
+          selectedParts={selectedParts}
+          total={total}
+          lang={lang}
+          onRemove={handleRemove}
+          onCheckout={() => {
+            console.log('checkout');
+            setShowCart(false);
+          }}
+        />
+      </Drawer>
+    </ThemeProvider>
   );
 }
