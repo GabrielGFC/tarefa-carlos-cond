@@ -196,5 +196,231 @@
     "price": 729.9,
     "socket_compatível": "LGA1700",
     "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/c/8/c815f757b8b9b4d6197ee563ee3f20b2.jpeg"
+  }]
+[
+  {
+    "name": "Processador AMD Athlon 3000G 3.5GHz 5MB Cache",
+    "category": "cpu",
+    "price": 269.9,
+    "socket": "AM4",
+    "image": "https://images3.kabum.com.br/produtos/fotos/sync_mirakl/502723/large/Processador-AMD-Athlon-3000g-3-5GHz-Cache-5MB-AM4-2-N-cleos-4-Threads-Yd3000c6fhsbx_1741269038.jpg"
+  },
+  {
+    "name": "Processador AMD Ryzen 3 3200G 3.6GHz 4GHz Turbo",
+    "category": "cpu",
+    "price": 389.9,
+    "socket": "AM4",
+    "image": "https://images8.kabum.com.br/produtos/fotos/102248/processador-amd-ryzen-3-3200g-cache-4mb-3-6ghz-4ghz-max-turbo-am4-yd3200c5fhbox_1607691191_g.jpg"
+  },
+  {
+    "name": "Processador Intel Pentium Gold G6405 4.10GHz",
+    "category": "cpu",
+    "price": 379.9,
+    "socket": "LGA1200",
+    "image": "https://images6.kabum.com.br/produtos/fotos/sync_mirakl/199796/large/Processador-Intel-Pentium-Gold-G6405-10-Gera-o-4-10GHz-Dual-Core-4-Threads-LGA-1200-BX80701G6405_1745351433.jpg"
+  },
+  {
+    "name": "Processador Intel Core i3-10100F 3.6GHz 4.3GHz Turbo",
+    "category": "cpu",
+    "price": 499.9,
+    "socket": "LGA1200",
+    "image": "https://images0.kabum.com.br/produtos/fotos/129960/processador-intel-core-i3-10100f-cache-6mb-4-30-ghz-lga-1200-i3-10100f_1603394030_g.jpg"
+  },
+  {
+    "name": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Turbo BOX",
+    "category": "cpu",
+    "price": 699.9,
+    "socket": "AM4",
+    "image": "https://images9.kabum.com.br/produtos/fotos/320799/processador-amd-ryzen-5-5500-cache-19mb-3-7ghz-4-2ghz-max-turbo-am4-100-100000457box_1647636796_g.jpg"
+  },
+  {
+    "name": "Cooler Fan C3Tech Gaming RGB FC-L110M",
+    "category": "cooler",
+    "price": 89.9,
+    "image": "https://images8.kabum.com.br/produtos/fotos/sync_mirakl/483448/Cooler-Fan-C3tech-Gaming-Para-Cpu-RGB-Multicores-FC-L110M_1726582804_g.jpg"
+  },
+  {
+    "name": "Water Cooler 120mm C3Tech FC-W120RGB",
+    "category": "water cooler",
+    "price": 219.9,
+    "image": "https://images7.kabum.com.br/produtos/fotos/sync_mirakl/502887/large/Water-Cooler-120mm-C3tech-Fc-w120rgb-AMD-E-Intel-LED-RGB_1746037279.jpg"
+  },
+  {
+    "name": "WaterCooler C3Tech 240mm FC-W240WH RGB Branco",
+    "category": "water cooler",
+    "price": 279.9,
+    "image": "https://images2.kabum.com.br/produtos/fotos/sync_mirakl/538382/large/Water-Cooler-C3tech-120mm-RGB-Branco-Fc-w240wh_1743691848.jpg"
+  },
+  {
+    "name": "Water Cooler C3Tech 240mm FC-W240RGB Preto",
+    "category": "water cooler",
+    "price": 269.9,
+    "image": "https://images6.kabum.com.br/produtos/fotos/sync_mirakl/502886/large/Water-Cooler-C3Tech-240mm-Fc-W240RGB-Preto_1745973029.jpg"
+  },
+  {
+    "name": "WaterCooler C3Tech 360mm FC-W360RGB Branco",
+    "category": "water cooler",
+    "price": 329.9,
+    "image": "https://images0.kabum.com.br/produtos/fotos/sync_mirakl/637740/Cooler-C3tech-Water-Cooler-Fc-w360whRGB-Branco_1726671752_g.jpg"
+  },
+  {
+    "name": "Placa Mãe AsRock H510M-HDV/M.2 (Kabum)",
+    "category": "placa mãe",
+    "price": 499.9,
+    "socket_compatível": "LGA1200",
+    "image": "https://images4.kabum.com.br/produtos/fotos/sync_mirakl/684134/Placa-M-e-Asrock-LGA-1200-H510m-hdv-m-2-2xDDR4-3200mhz-Dimm-64gb-2xusb-3-2-4xusb-2-0-4xsata-HDMI-Dvi-d-Vga-Gigabit_1733333792_g.jpg"
+  },
+  {
+    "name": "Placa Mãe Asus PRIME H510M-K R2.0 (Kabum)",
+    "category": "placa mãe",
+    "price": 549.9,
+    "socket_compatível": "LGA1200",
+    "image": "https://images9.kabum.com.br/produtos/fotos/sync_mirakl/474959/large/Placa-M-e-Asus-Prime-H510m-k-R2-0-Lga-1200-90mb1e80-m0eay0_1746814856.jpg"
+  },
+  {
+    "name": "Placa Mãe MSI B560M PRO-E DDR4 (Kabum)",
+    "category": "placa mãe",
+    "price": 599.9,
+    "socket_compatível": "LGA1200",
+    "image": "https://images4.kabum.com.br/produtos/fotos/280944/placa-mae-msi-b560m-pro-e-lga-1200-matx-ddr4_1646832447_g.jpg"
+  },
+  {
+    "name": "Memória Redragon Rage 8GB DDR4 3200MHz",
+    "category": "ram",
+    "price": 139.9,
+    "image": "https://images7.kabum.com.br/produtos/fotos/sync_mirakl/415447/large/Mem-ria-Redragon-Rage-8GB-3200MHz-DDR4-CL16-Vermelha-GM-701_1746538238.png"
+  },
+  {
+    "name": "Memória Hiksemi Armor 16GB DDR4 3200MHz",
+    "category": "ram",
+    "price": 219.9,
+    "image": "https://images3.kabum.com.br/produtos/fotos/sync_mirakl/674293/Memoria-16gb-Ddr4-Hiksemi-Armor-3200mhz-Preta_1731682274_g.jpg"
+  },
+  {
+    "name": "Memória XPG Spectrix D35G 16GB DDR4 3200MHz",
+    "category": "ram",
+    "price": 249.9,
+    "image": "https://images6.kabum.com.br/produtos/fotos/474946/memoria-xpg-spectrix-d35g-rgb-16gb-3200mhz-ddr4-cl16-preto-ax4u320016g16a-sbkd35g_1700162057_g.jpg"
+  },
+  {
+    "name": "Memória Kingston Fury Beast 16GB DDR4 3200MHz",
+    "category": "ram",
+    "price": 239.9,
+    "image": "https://images6.kabum.com.br/produtos/fotos/172366/memoria-kingston-fury-beast-16gb-3200mhz-ddr4-cl16-preto-kf432c16bb1-16_1626271100_g.jpg"
+  },
+  {
+    "name": "Memória Kingston Fury Beast 32GB DDR4 3200MHz",
+    "category": "ram",
+    "price": 449.9,
+    "image": "https://images6.kabum.com.br/produtos/fotos/sync_mirakl/355886/large/Mem-ria-Kingston-Fury-Beast-Black-32GB-3200MHz-DDR4-KF432C16BB-32_1746559280.png"
+  },
+  {
+    "name": "Placa de Vídeo PcYes GeForce RTX 3050 Edge 8GB",
+    "category": "placa de vídeo",
+    "price": 1699.9,
+    "image": "https://images8.kabum.com.br/produtos/fotos/716958/placa-de-video-pcyes-gpu-nvidia-geforce-rtx-3050-8gb-gddr6-128bit-projeto-edge-pvrtx30508blpe_1744384396_g.jpg"
+  },
+  {
+    "name": "Placa de Vídeo AsRock Radeon RX 7600 8GB",
+    "category": "placa de vídeo",
+    "price": 2199.9,
+    "image": "https://images4.kabum.com.br/produtos/fotos/459144/placa-de-video-rx-7600-challenger-asrock-amd-radeon-8gb-gddr6-90-ga41zz-00uanf_1685551526_g.jpg"
+  },
+  {
+    "name": "Placa de Vídeo Galax GeForce RTX 3060 OC 12GB",
+    "category": "placa de vídeo",
+    "price": 2499.9,
+    "image": "https://images7.kabum.com.br/produtos/fotos/150657/placa-de-video-galax-geforce-rtx-3060-1-click-oc-15-gbps-12gb-gddr6-ray-tracing-dlss-36nol7md1voc_1614253646_g.jpg"
+  },
+  {
+    "name": "Placa de Vídeo AsRock Radeon RX 7800 XT 16GB",
+    "category": "placa de vídeo",
+    "price": 3499.9,
+    "image": "https://images0.kabum.com.br/produtos/fotos/482460/placa-de-video-rx-7800-xt-steel-legend-16g-oc-asrock-amd-radeon-rx7800xt-sl-16go-90-ga4rzz-00uanf_1694021465_g.jpg"
+  },
+  {
+    "name": "Placa de Vídeo Galax GeForce RTX 5070 OC 12GB",
+    "category": "placa de vídeo",
+    "price": 3999.9,
+    "image": "https://images3.kabum.com.br/produtos/fotos/728113/placa-de-video-galax-rtx-5070-1-click-oc-nvidia-geforce-12gb-gddr7-192-bit-ray-tracing-dlss-4-527200-0142_1745512051_g.jpg"
+  },
+  {
+    "name": "SSD Adata Ultimate SU650 480GB SATA",
+    "category": "hd/ssd",
+    "price": 229.9,
+    "image": "https://images6.kabum.com.br/produtos/fotos/105016/ssd-sata-adata-ultimate-su650-480gb-2-5-leitura-520mb-s-gravacao-450mb-s-preto-asu650ss-480gt-r_1724167224_g.jpg"
+  },
+  {
+    "name": "SSD Kingston A400 480GB SATA",
+    "category": "hd/ssd",
+    "price": 219.9,
+    "image": "https://images8.kabum.com.br/produtos/fotos/85198/85198_1484306114_g.jpg"
+  },
+  {
+    "name": "HD Seagate BarraCuda 2TB 7200RPM",
+    "category": "hd/ssd",
+    "price": 349.9,
+    "image": "https://images6.kabum.com.br/produtos/fotos/100916/100916_1552934430_index_g.jpg"
+  },
+  {
+    "name": "SSD WD Green 2TB SATA",
+    "category": "hd/ssd",
+    "price": 699.9,
+    "image": "https://images7.kabum.com.br/produtos/fotos/114967/ssd-western-digital-wd-green-2tb-sata-leituras-2300mb-s-e-gravacoes-3100mb-s-wds2000t2g0a_1594231672_g.jpg"
+  },
+  {
+    "name": "SSD Lexar NM620 2TB NVMe",
+    "category": "hd/ssd",
+    "price": 899.9,
+    "image": "https://images5.kabum.com.br/produtos/fotos/sync_mirakl/461455/large/SSD-Lexar-Nm620-M-2-2280-Pcie-2tb-Lnm620x002t-rnnnu_1738875651.jpg"
+  },
+  {
+    "name": "Gabinete Vinik Bit Branco",
+    "category": "gabinete",
+    "price": 149.9,
+    "image": "https://images5.kabum.com.br/produtos/fotos/sync_mirakl/459715/large/Gabinete-Corporativo-Vinik-Bit-USB-2-0-Micro-ATX-Branco-Gbv2wbr_1745030445.jpg"
+  },
+  {
+    "name": "Gabinete Bluecase Gamer Nuker V2 Preto",
+    "category": "gabinete",
+    "price": 199.9,
+    "image": "https://images1.kabum.com.br/produtos/fotos/sync_mirakl/712411/large/Gabinete-Gamer-Nuker-V2-Da-Bluecase-Mid-Tower-Estilo-Pot-ncia-E-Espa-o_1745945470.png"
+  },
+  {
+    "name": "Gabinete Gamer Gamemax Defender MB Branco",
+    "category": "gabinete",
+    "price": 279.9,
+    "image": "https://images7.kabum.com.br/produtos/fotos/sync_mirakl/644337/large/Gabinete-Gamer-Gamemax-Defender-Mini-Tower-Usb-Lateral-Vidro-Branco_1739451636.jpg"
+  },
+  {
+    "name": "Gabinete Office Bluecase Slimdesk Branco BG-2002W",
+    "category": "gabinete",
+    "price": 189.9,
+    "image": "https://images9.kabum.com.br/produtos/fotos/sync_mirakl/527119/large/Gabinete-Slim-Bluecase-Branco-Bg-2002w-Com-Fonte-200w_1746195059.jpg"
+  },
+  {
+    "name": "Fonte ATX C3Tech 700W 80 Plus Bronze",
+    "category": "fonte",
+    "price": 349.9,
+    "image": "https://images1.kabum.com.br/produtos/fotos/sync_mirakl/508671/large/Fonte-Gamer-C3tech-700W-80-Plus-Bronze-Pfc-Ativo-ATX-Ps-G700b_1746552639.jpg"
+  },
+  {
+    "name": "Fonte Gamemax GX800 800W 80 Plus Gold",
+    "category": "fonte",
+    "price": 499.9,
+    "image": "https://images6.kabum.com.br/produtos/fotos/496006/fonte-gamemax-gx800-800w-80-plus-gold-pfc-ativo-com-cabo-preto-gx800wbkpss7710br_1716909932_g.jpg"
+  },
+  {
+    "name": "Fonte Gamemax GX850 Pro 850W 80 Plus Gold Modular",
+    "category": "fonte",
+    "price": 599.9,
+    "image": "https://images8.kabum.com.br/produtos/fotos/495998/fonte-gamemax-gx850-pro-850w-80-plus-gold-pcie-5-0-full-modular-branco-gx850pwtps18810br_1701171685_g.jpg"
+  },
+  {
+    "name": "Fonte Aigo 700W 80 Plus Gold Modular GM700",
+    "category": "fonte",
+    "price": 379.9,
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/6630b9e112ee13f7d501bef37f6e88ec/0/d/0d8ff5f023a0842f016aa7df06166966.jpeg"
   }
+]
 ]
