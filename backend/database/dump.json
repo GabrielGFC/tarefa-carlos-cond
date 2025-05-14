@@ -147,31 +147,31 @@
   },
   {
     "name": "SSD Adata Ultimate SU650 480GB SATA",
-    "category": "hd/ssd",
+    "category": "hd-ssd",
     "price": 229.9,
     "image": "https://images6.kabum.com.br/produtos/fotos/105016/ssd-sata-adata-ultimate-su650-480gb-2-5-leitura-520mb-s-gravacao-450mb-s-preto-asu650ss-480gt-r_1724167224_g.jpg"
   },
   {
     "name": "SSD Kingston A400 480GB SATA",
-    "category": "hd/ssd",
+    "category": "hd-ssd",
     "price": 219.9,
     "image": "https://images8.kabum.com.br/produtos/fotos/85198/85198_1484306114_g.jpg"
   },
   {
     "name": "HD Seagate BarraCuda 2TB 7200RPM",
-    "category": "hd/ssd",
+    "category": "hd-ssd",
     "price": 349.9,
     "image": "https://images6.kabum.com.br/produtos/fotos/100916/100916_1552934430_index_g.jpg"
   },
   {
     "name": "SSD WD Green 2TB SATA",
-    "category": "hd/ssd",
+    "category": "hd-ssd",
     "price": 699.9,
     "image": "https://images7.kabum.com.br/produtos/fotos/114967/ssd-western-digital-wd-green-2tb-sata-leituras-2300mb-s-e-gravacoes-3100mb-s-wds2000t2g0a_1594231672_g.jpg"
   },
   {
     "name": "SSD Lexar NM620 2TB NVMe",
-    "category": "hd/ssd",
+    "category": "hd-ssd",
     "price": 899.9,
     "image": "https://images5.kabum.com.br/produtos/fotos/sync_mirakl/461455/large/SSD-Lexar-Nm620-M-2-2280-Pcie-2tb-Lnm620x002t-rnnnu_1738875651.jpg"
   },
@@ -222,5 +222,203 @@
     "category": "fonte",
     "price": 379.9,
     "image": "https://www.fgtec.com.br/media/catalog/product/cache/6630b9e112ee13f7d501bef37f6e88ec/0/d/0d8ff5f023a0842f016aa7df06166966.jpeg"
+  },
+  {
+    "name": "Processador AMD Athlon 3000G 3.5GHz",
+    "category": "cpu",
+    "price": 269.9,
+    "socket": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/5/f/5fb89144feb664e863fe92e6a64ef720.webp"
+  },
+  {
+    "name": "Processador AMD Ryzen 3 3200G 3.6GHz",
+    "category": "cpu",
+    "price": 389.9,
+    "socket": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/7/9/79f27ab7c0fa62deb98528dd9c4626b2.webp"
+  },
+  {
+    "name": "Processador Intel Core Pentium Gold G6405 4.1GHz",
+    "category": "cpu",
+    "price": 399.9,
+    "socket": "LGA1200",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/7/7/77f363c742e59e5ff93490f1e1a5a263.webp"
+  },
+  {
+    "name": "Processador Intel Core i3‑10100F 3.60GHz",
+    "category": "cpu",
+    "price": 499.9,
+    "socket": "LGA1200",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/6/d/6d75faa7935f3434eda3c3afa9a1b70f.webp"
+  },
+  {
+    "name": "Processador Intel Core i3‑12100F 3.30GHz",
+    "category": "cpu",
+    "price": 699.9,
+    "socket": "LGA1700",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/3/4/34c0309486adeb69136d0e548ef1092f.webp"
+  },
+  {
+    "name": "Processador AMD Ryzen 5 5500 3.6GHz OEM",
+    "category": "cpu",
+    "price": 629.9,
+    "socket": "AM4",
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/4/d/4ddc51aad733589dffc29d27ffcdf05d.jpeg"
+  },
+  {
+    "name": "Processador AMD Ryzen 5 5500 3.6GHz BOX",
+    "category": "cpu",
+    "price": 699.9,
+    "socket": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/d/4/d47244f6e8b400c96b006a3437f3556d.webp"
+  },
+  {
+    "name": "Processador AMD Ryzen 3 5300G 4.0GHz",
+    "category": "cpu",
+    "price": 529.9,
+    "socket": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/d/2/d2305a0620efbfd977f2befee213cb31.webp"
+  },
+  {
+    "name": "Processador Intel Core i3‑13100F 3.40GHz",
+    "category": "cpu",
+    "price": 789.9,
+    "socket": "LGA1700",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/3/9/39d37b3c3428104ab73cb81543f4d349_1.webp"
+  },
+  {
+    "name": "Processador Intel Core i3‑10100 3.6GHz",
+    "category": "cpu",
+    "price": 459.9,
+    "socket": "LGA1200",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/f/6/f61a542b7aaf79117fedf2bd4544fee7_2.webp"
+  },
+  {
+    "name": "Processador Intel Core i3‑14100F 3.50GHz",
+    "category": "cpu",
+    "price": 899.9,
+    "socket": "LGA1700",
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/5/d/5df9a1b24fae2a3351abc6e92b6f6c65.jpeg"
+  },
+  {
+    "name": "Processador Intel Core i5‑12400F 2.5GHz",
+    "category": "cpu",
+    "price": 999.9,
+    "socket": "LGA1700",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/8/f/8f9ced9cec3e09b942259a60b027d853.webp"
+  },
+  {
+    "name": "Processador AMD Ryzen 5 5600X 3.7GHz OEM",
+    "category": "cpu",
+    "price": 899.9,
+    "socket": "AM4",
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/4/6/46147add81c277a6857d01d35d9e257a.jpeg"
+  },
+  {
+    "name": "Cooler CPU C3Tech FC-L110M",
+    "category": "cooler",
+    "price": 99.9,
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/4/d/4d90782814ac551d02a96a85680be798.webp"
+  },
+  {
+    "name": "WaterCooler C3Tech 120mm FC-W120 RGB",
+    "category": "water cooler",
+    "price": 219.9,
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/9/f/9f0ddc2daf6a2c8d2870f546918ca642.webp"
+  },
+  {
+    "name": "Watercooler PCYes Sangue Frio 3 White Ghost 120mm",
+    "category": "water cooler",
+    "price": 249.9,
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/5/4/547e36027133f532be573760624951cc.webp"
+  },
+  {
+    "name": "CPU Cooler Deepcool AG400 Digital ARGB Branco",
+    "category": "cooler",
+    "price": 159.9,
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/e/7/e7fd155dcce2df3ea1cb5054f2ccf7a0.webp"
+  },
+  {
+    "name": "Watercooler PCYes Sangue Frio 3 Black Vulcan 120mm",
+    "category": "water cooler",
+    "price": 249.9,
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/0/f/0f9fb1647744c4feb49b744fb6650b4b.webp"
+  },
+  {
+    "name": "Placa Mãe VXPro VX A320XG M2 DDR4",
+    "category": "placa mãe",
+    "price": 349.9,
+    "socket_compatível": "AM4",
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/e/1/e12b52e7743661f284576401e514a6c6.jpeg"
+  },
+  {
+    "name": "Placa Mãe ASRock A520M‑HVS",
+    "category": "placa mãe",
+    "price": 399.9,
+    "socket_compatível": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/f/6/f66bcc538e760103cced0a8ee1af0627.webp"
+  },
+  {
+    "name": "Placa Mãe MSI A520M‑A PRO",
+    "category": "placa mãe",
+    "price": 429.9,
+    "socket_compatível": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/5/5/556ebb7d9b8997dd5cb03544ab86a7b8.webp"
+  },
+  {
+    "name": "Placa Mãe Gigabyte A520M K V2 DDR4",
+    "category": "placa mãe",
+    "price": 449.9,
+    "socket_compatível": "AM4",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/5/8/588ce0a066f415d7242367987bf20684.webp"
+  },
+  {
+    "name": "Placa Mãe Asus PRIME A520M‑K",
+    "category": "placa mãe",
+    "price": 479.9,
+    "socket_compatível": "AM4",
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/1/0/10a4642d68930fb3b99b585cf24bcf15.jpeg"
+  },
+  {
+    "name": "Placa Mãe AsRock H510M‑HDV/M.2",
+    "category": "placa mãe",
+    "price": 499.9,
+    "socket_compatível": "LGA1200",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/5/f/5f633ddc9bfbcee9a257d32e12ad3501.webp"
+  },
+  {
+    "name": "Placa Mãe Asus PRIME H510M‑K R2.0",
+    "category": "placa mãe",
+    "price": 549.9,
+    "socket_compatível": "LGA1200",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/9/6/96fc72289ce5d1fe96fbabaa38c68c95.webp"
+  },
+  {
+    "name": "Placa Mãe MSI B560M PRO‑E DDR4",
+    "category": "placa mãe",
+    "price": 599.9,
+    "socket_compatível": "LGA1200",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/0/0/00ce6125960a0ce9fbf43abc2fb3459b.webp"
+  },
+  {
+    "name": "Placa Mãe Pcware IPMH610G",
+    "category": "placa mãe",
+    "price": 649.9,
+    "socket_compatível": "LGA1700",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/d/4/d48b2ebea4d65347f88bdcf6360833f9.webp"
+  },
+  {
+    "name": "Placa Mãe AsRock H610M‑HVS M.2 R2.0",
+    "category": "placa mãe",
+    "price": 679.9,
+    "socket_compatível": "LGA1700",
+    "image": "https://www.fgtec.com.br/media/bss/webp/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/2/f/2f2d36edcf0ba91c62aeaba1c8ab1081.webp"
+  },
+  {
+    "name": "Placa Mãe Asus Prime H610M‑CS D4",
+    "category": "placa mãe",
+    "price": 729.9,
+    "socket_compatível": "LGA1700",
+    "image": "https://www.fgtec.com.br/media/catalog/product/cache/15f1fd89241030dffe606656e0230bfd/c/8/c815f757b8b9b4d6197ee563ee3f20b2.jpeg"
   }
 ]
