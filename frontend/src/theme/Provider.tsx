@@ -1,23 +1,13 @@
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ReactNode } from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
+import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles';
+import { theme } from './index';
 
-const theme = createTheme({
-  // ativa suporte a CSS vars (gera as variáveis em :root)
-  cssVariables: true,
-  // prepara light/dark pra SSR
-  colorSchemes: {
-    light: { /* sua palette light */ },
-    dark:  { /* sua palette dark  */ },
-  },
-  shape: { borderRadius: 12 },
-  typography: { fontFamily: `'Public Sans','Roboto',sans-serif` },
-});
-
-export default function AppThemeProvider({ children }: { children: React.ReactNode }) {
+export default function ThemeProvider({ children }: { children: ReactNode }) {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      {children}
-    </ThemeProvider>
+      <CssVarsProvider theme={theme} defaultMode="light">
+        <CssBaseline />
+        {children}
+      </CssVarsProvider>
   );
-}
+}  

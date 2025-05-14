@@ -1,7 +1,7 @@
 // src/layout/Header.tsx
 import React from 'react';
 import { AppBar, Toolbar, Stack, IconButton, Button, Box } from '@mui/material';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ArticleIcon from '@mui/icons-material/Article';
 import ModeSwitch from './ModeSwitch';
 
 interface Props {
@@ -33,7 +33,7 @@ export default function Header({ lang, setLang, onToggleCart }: Props) {
               <rect x="42" y="78" width="16" height="4" fill="#4A90E2" />
 
               {/* Texto */}
-              <text x="100" y="65" fontFamily="Segoe UI, sans-serif" fontSize="28" fill="#2C3E50" fontWeight="bold">
+              <text x="100" y="65" fontFamily="Segoe UI, sans-serif" fontSize="28" fill="#dedede" fontWeight="bold">
                 SeuComputador
               </text>
             </svg>
@@ -47,7 +47,7 @@ export default function Header({ lang, setLang, onToggleCart }: Props) {
         <Stack direction="row" spacing={1} alignItems="center">
           <ModeSwitch />
           <IconButton onClick={onToggleCart}>
-            <ShoppingCartIcon />
+            <ArticleIcon />
           </IconButton>
         </Stack>
       </Toolbar>
