@@ -3,7 +3,6 @@ export const categories = ["CPU", "Cooler", "Placa Mãe", "RAM", "Placa de víde
 export const translations = {
   pt: {
     title: "Monte seu PC",
-    select: "Selecione",
     next: "Próximo",
     prev: "Anterior",
     summary: "Resumo",
@@ -12,7 +11,6 @@ export const translations = {
   },
   en: {
     title: "Build your PC",
-    select: "Select",
     next: "Next",
     prev: "Previous",
     summary: "Summary",
